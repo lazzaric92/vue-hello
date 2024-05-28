@@ -12,8 +12,7 @@
     <div id="app">
         <div class="container">
             <div>
-                <h1>Hello  {{ message }}!</h1>
-                <img :src="imageUrl" alt="Vue meme">
+                <h1>Hello {{ message }}</h1>
             </div>
             <div class="form flex">
                 <div class="flex">
@@ -24,6 +23,10 @@
                     <label for="image">Change the image url <span>&rarr;</span></label>
                     <input type="text" name="image" id="image" v-model="imageUrl">
                 </div>
+            </div>
+            <p>or click me <span>&darr;</span></p>
+            <div class="image-container flex" @click="changeImage(this)">
+                <img :src="imageUrl">
             </div>
         </div>
     </div>
