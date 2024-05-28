@@ -6,7 +6,7 @@
 Bonus:
 Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 // Creo la proprietà imageUrl in data();
-    Aggiungo un tag img, cambio l'attributo src in :src e metto come contenuto { { imageUrl }}
+    Aggiungo un tag img, cambio l'attributo src in :src e metto come contenuto imageUrl
 
 Bonus 2:
 Aggiungiamo la possibilita' di modificare in tempo reale con un input sia l'h1 che l'url dell'immagine!
