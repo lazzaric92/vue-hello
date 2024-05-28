@@ -3,7 +3,7 @@ const { createApp } = Vue
 createApp({
     data() {
         return {
-            message: 'Hello Vue!',
+            message: 'Vue',
             imageUrl : 'https://pbs.twimg.com/media/DIYJPGiUMAIKnTu.jpg'
         }
     }

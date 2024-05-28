@@ -11,8 +11,20 @@
 <body>
     <div id="app">
         <div class="container">
-            <h1>{{ message }}</h1>
-            <img :src="imageUrl" alt="Vue meme">
+            <div>
+                <h1>Hello  {{ message }}!</h1>
+                <img :src="imageUrl" alt="Vue meme">
+            </div>
+            <div class="form flex">
+                <div class="flex">
+                    <label for="title">Change the page title <span>&rarr;</span></label>
+                    <input type="text" name="title" id="title" v-model="message">
+                </div>
+                <div class="flex">
+                    <label for="image">Change the image url <span>&rarr;</span></label>
+                    <input type="text" name="image" id="image" v-model="imageUrl">
+                </div>
+            </div>
         </div>
     </div>
 
